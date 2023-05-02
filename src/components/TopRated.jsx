@@ -56,11 +56,11 @@ const TopRated = ({home}) => {
               </div>
             )
           }
+        </div>
         {
           home &&
           <button onClick={()=>navigate('/search')} className='btn'>See more</button>
         }
-        </div>
      </div>
     </>
   )
